@@ -1,0 +1,162 @@
+/*Importante*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    text-decoration: none;
+}
+
+:root{
+    --blanco: #ffffff;
+    --negro: #212121;
+    --vinotinto: #900020;
+    --mahogany: #5E1914;
+}
+
+html{
+    scroll-behavior: smooth;
+    background: url(/img/bgreal.png);
+
+
+}
+body{
+    margin: 0px 60px;
+}
+/*Header*/
+header{
+    margin: 0 2pc 0 2pc
+}
+nav{
+    opacity: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5pc;
+    color: var(--blanco);
+}
+ul{
+    width: 3pc;
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5pc;
+    margin-top: 20px;
+}
+.logo{
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.carrito{
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+/*Body*/
+
+.productos{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;    
+row-gap: 40px;
+column-gap: 30px;
+margin-top: 20px;
+}
+
+
+picture{
+    background-color: var(--blanco);
+    border-radius: 15px;
+    width:350px;
+    height: 310px;
+    color: var(--negro);
+    display: flex;
+    border:solid 4px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+@media (min-width: 768px) {
+    .productos{
+        width:auto;
+        height: auto;
+    }
+     img{
+         width: auto;
+     }
+}
+
+.productinfo{
+    flex-direction: column;
+}
+h1{
+    margin-left: 2px;
+}
+h2{
+    height: 210px;
+    font-size: 18px;
+    margin-left: 2px;
+}
+
+img{
+    border-radius: 10px 0 0 10px;
+    width: 50%;
+    height: 310px;
+    border-right:solid 4px;
+}
+.addto{
+display: flex;
+justify-content: center;
+width: 85%;
+}
+.boton {
+    background-color: var(--negro);
+    color: var(--blanco);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.5rem 2.7rem;
+    justify-content: center;
+    font-size: 0.7rem;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    width:85%;
+    text-align: center;
+    border: none;
+}
+.ufo{
+   position: absolute;
+   top: -1px;
+}
+
+@media screen and (min-width: 768px) {
+    .addto{
+        width: auto;
+    }
+    .boton {
+        width: auto;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .carrito , .bar1{
+        display: none;
+    }
+
+    .productos{
+        row-gap: 1000000px;
+    }
+}
+
+@media (min-width: 768px) {
+     .dotdotdot{
+         display: none;
+     }
+}
+
+.footer{
+    color: #ffffff;
+    font: 2pc;
+    margin-top: 3pc;
+}
