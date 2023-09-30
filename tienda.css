@@ -153,10 +153,6 @@ width: 85%;
     .carrito , .bar1{
         display: none;
     }
-
-    .productos{
-        row-gap: 20px;
-    }
 }
 
 @media (min-width: 768px) {
