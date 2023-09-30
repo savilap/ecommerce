@@ -90,7 +90,6 @@ picture{
 @media (min-width: 768px) {
     .productos{
         width:auto;
-        height: auto;
     }
      img{
          width: auto;
@@ -118,7 +117,7 @@ img{
 .addto{
 display: flex;
 justify-content: center;
-width: 85%;
+width: 100%;
 }
 .boton {
     background-color: var(--negro);
