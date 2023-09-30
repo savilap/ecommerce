@@ -155,7 +155,7 @@ width: 85%;
     }
 
     .productos{
-        row-gap: 1000000px;
+        row-gap: 20px;
     }
 }
 
