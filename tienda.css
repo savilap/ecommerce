@@ -48,9 +48,18 @@ ul{
     margin-top: 20px;
 }
 .carrito{
-    justify-content: center;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  margin-top: 30px;
+
+}
+
+.ufo {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    margin-right: 20px;
+    text-align: center;
 }
 
 /*Body*/
